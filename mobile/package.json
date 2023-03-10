@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "geolocation": "^0.2.0",
+    "google-maps-react": "^2.0.6"
+  }
+}
