@@ -83,12 +83,12 @@ function Home(props) {
     })
   };
 
-  requestLocationPermission();
-  getLocation();
+  // requestLocationPermission();
+  // getLocation();
 
   // testing fucntion to get current locaitons
     return (
-        <View style={styles} > 
+        <View style={styles.mapStyle} > 
         <MapView
             Provider = {PROVIDER_GOOGLE}
             showsUserLocation         

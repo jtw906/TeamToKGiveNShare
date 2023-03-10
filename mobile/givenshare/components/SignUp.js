@@ -97,7 +97,7 @@ function SignUp(props) {
             <TouchableOpacity
                 onPress = {onPressSignUp}
                 style={styles.loginBtn}>
-                <Text style={styles.loginText}>SIGN UP </Text>
+                <Text style={styles.loginText}>NEXT </Text>
             </TouchableOpacity>
             <TouchableOpacity
                 onPress = {onPressLogin}>
